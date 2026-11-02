@@ -9,14 +9,14 @@ Aplicação de notas com **back-end em Express.js** (API REST com CRUD completo,
 
 | Item | Link |
 |------|------|
-| Repositório | https://github.com/AmosSantos02/Aula-5-Atividade-2-CRUD-Notas |
+| Repositório | https://github.com/AmosSantos02/atividade5-front |
 | Deploy do back-end (Render) | _preencher depois do deploy_ |
 | Deploy do front-end (Vercel) | _preencher depois do deploy_ |
 
 ## Estrutura
 
 ```text
-Aula-5-Atividade-2-CRUD-Notas/
+atividade5-front/
 ├── backend/                 API Express (deploy no Render)
 │   ├── server.js            configuração do app (CORS, JSON, erros)
 │   ├── routes/notes.js      rotas do CRUD e validação
@@ -75,7 +75,7 @@ Ordem recomendada: back-end primeiro (precisa da URL dele no front).
 
 ### 1. Back-end no Render
 
-1. Render > **New** > **Web Service** e conecte o repositório `Aula-5-Atividade-2-CRUD-Notas`.
+1. Render > **New** > **Web Service** e conecte o repositório `atividade5-front`.
 2. **Root Directory:** `backend`
 3. **Build Command:** `npm install`
 4. **Start Command:** `npm start`
